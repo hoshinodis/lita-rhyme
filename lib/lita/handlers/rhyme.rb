@@ -1,10 +1,10 @@
 module Lita
   module Handlers
-    class Rhymer < Handler
-      route(/.*/, :gen_rhyme)
-      def gen_rhyme(response)
+    class Rhyme < Handler
+      route(/.*/, :gen)
+      def gen(response)
         rhymer = Rhymer::Parser.new(response.matches[0])
-        if rhymer.size > 0
+        if rhymer.rhymes.size > 0
           rhyme = rhymer.rhymes.sample
           response.reply([rhyme[0], rhyme[1]].join(" "))
         end

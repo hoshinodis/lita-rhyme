@@ -1,2 +1,2 @@
 require "lita"
-require "lita/handlers/rhymer"
+require "lita/handlers/rhyme"
