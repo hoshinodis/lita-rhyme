@@ -2,6 +2,11 @@
 
 TODO: Add a description of the plugin.
 
+## Requirements
+- natto `gem 'natto'`
+- rhymer `gem 'rhymer', :git => 'https://github.com/suzuki86/rhymer.git'`
+- mecab `brew install mecab mecab-ipadic`
+
 ## Installation
 
 Add lita-rhymer to your Lita instance's Gemfile:
