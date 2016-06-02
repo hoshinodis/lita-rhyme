@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
-  spec.name          = "lita-rhymer"
+  spec.name          = "lita-rhyme"
   spec.version       = "0.1.0"
   spec.authors       = ["hoshinodis"]
   spec.email         = ["okonomisentai@gmail.com"]
-  spec.description   = "rhymer"
-  spec.summary       = "rhymer"
-  spec.homepage      = "https://github.com/hoshinodis/lita-rhymer"
+  spec.description   = "rhyme"
+  spec.summary       = "rhyme"
+  spec.homepage      = "https://github.com/hoshinodis/lita-rhyme"
   spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 

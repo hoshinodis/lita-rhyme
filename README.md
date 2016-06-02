@@ -1,4 +1,4 @@
-# lita-rhymer
+# lita-rhyme
 
 TODO: Add a description of the plugin.
 
@@ -9,10 +9,10 @@ TODO: Add a description of the plugin.
 
 ## Installation
 
-Add lita-rhymer to your Lita instance's Gemfile:
+Add lita-rhyme to your Lita instance's Gemfile:
 
 ``` ruby
-gem "lita-rhymer"
+gem "lita-rhyme"
 ```
 
 ## Configuration

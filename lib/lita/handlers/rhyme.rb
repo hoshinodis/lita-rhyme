@@ -1,8 +1,8 @@
 module Lita
   module Handlers
     class Rhyme < Handler
-      route(/.*/, :gen)
-      def gen(response)
+      route(/.*/, :generator)
+      def generator(response)
         rhymer = Rhymer::Parser.new(response.matches[0])
         if rhymer.rhymes.size > 0
           rhyme = rhymer.rhymes.sample
